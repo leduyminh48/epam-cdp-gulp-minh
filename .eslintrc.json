@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "ecmaVersion": 6,
+  "sourceType": "module",
+  "ecmaFeatures": {
+    "impliedStrict": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "eqeqeq": 1,
+    "strict": 1,
+    "no-console": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cdp-gulp",
+  "description": "Step-by-step example of introducing Gulp into project",
+  "main": ["src/js/main.js", "src/less/all.less"],
+  "authors": [
+    "Andrii Dieiev",
+    "Valerii Pavlov",
+    "Duy Minh Le"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "tutorial",
+    "introduction",
+    "cdp",
+    "epam"
+  ],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
