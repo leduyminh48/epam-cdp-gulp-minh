@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 5.1.0
+# whitelist
+branches:
+  only:
+    - master
+    - deploy
+
+before_script:
+  - npm install -g gulp
+script: npm run build:prod
