@@ -54,7 +54,7 @@ var conf = {
         css: 'build/css',
         images: 'build/images',
         js: 'build/js',
-        html: 'build/html',
+        html: 'build',
         compiledJs: 'cdp.js',
         compiledCss: 'cdp.css',
         platoReport: 'reports/plato',
@@ -118,7 +118,7 @@ gulp.task('html', ['clean'], function () {
             'css': path.relative(conf.build.html, conf.build.css) + '/' + conf.build.compiledCss,
             'js': path.relative(conf.build.html, conf.build.js) + '/' + conf.build.compiledJs,
             'logo': {
-                src: '../images/logo_gray-blue_80px.svg',
+                src: 'images/logo_gray-blue_80px.svg',
                 tpl: '<img src="%s" alt="Epam logo"/>'
             }
         }))
