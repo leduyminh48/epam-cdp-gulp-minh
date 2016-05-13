@@ -15,4 +15,3 @@ deploy:
     - "npm run start"
   on:
       branch: deploy
-      rvm: 2.0.0
