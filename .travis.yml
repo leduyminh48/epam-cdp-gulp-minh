@@ -14,6 +14,5 @@ deploy:
     secure: FiwIk3QccTYaSRehBU6BgLK4FNQGL4pgI0KZg6uR9ij03/66rvMtirEM//eQrOvI1abipXSUbknrYpjJbY4s3jxROKt9na85DZ/JL1UhjTMTMAfG7hOdTP4TTPXc3mfjxOSTZm6037uShGTeFVbLGoFcR714dVYjskJIoqJ2+ZwqtiOlhVWe6RmnBEygukPWuKof7QnITOhp+QQJGjqEBTO+9ef7nmgkOGLxg81jB3GTIERRorElp8pa8DySJ5h5CyE3p2d/ZwU1Nbqr67VVoCT4B19xFHCsyZ+SmEe+1DYScA2ZkWY7lrmkoHD5tBdbYHdvKSnIpWJcnLd7YSsxcViSXCAX5ITFVYez/1DqjhA6S9oeadJf/oka3vrkZ1j6telXoqiD4DyING3DE/Ir4m25sDpGjg8aNMFwu0tYuQzDhagScFSsx+oTBPvUMAVtoN0N1/rGRthDsXHPnkQcsoAUlNYpy4XQi+ydrTwXiqRLcO+AymfuJck7KQ/SD2uzbYQ397SZqgZIyZslsR4z2n8ihmABLQhs3ginBrqA5X8vWaNY8opqVfNDwf0g5BxxBLOENIGjulqBQculiwXVjDcM29brqoDOSMxBUZ7MLKEqu0UCXKtS9REORJgYOf7btqNBVTl/Hzlc8Wok2D3rp+OofrCBgsfMCo7+UCzQ87Q=
   run:
   - npm i -g http-server
-  - npm run start
   on:
     branch: deploy

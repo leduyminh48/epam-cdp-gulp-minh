@@ -6,7 +6,7 @@
     "build": "gulp build",
     "build:prod": "gulp build --env=production",
     "watch": "gulp watch",
-    "start": "http-server build -p ${PORT}",
+    "start": "http-server build/html -p ${PORT}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
